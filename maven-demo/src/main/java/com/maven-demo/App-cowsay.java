@@ -1,14 +1,15 @@
 package com.mavendemo;
 
 import com.github.ricksbrown.cowsay.Cowsay;
+import com.github.ricksbrown.cowsay.plugin.CowExecutor;
 
 public class App
 {
     public static void main(String[] args) {
-        int result = Calculator.add(4, 5);
-        String[] cowArgs = new String[] { String.valueOf(result) };
-        String cowString = Cowsay.say(cowArgs);
+        // String message = "Develeap's Maven & Artifactory Demo!"
+        String[] cowArgs = new String[]{"Develeap's Maven & Artifactory Demo!"};
+        String result = Cowsay.say(cowArgs);
 
-        System.out.printf(cowString);
+        System.out.println(result);
     }
 }
