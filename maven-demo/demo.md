@@ -41,7 +41,7 @@ git clone https://github.com/tsboris/java-demo.git
 curl -sSf -u "admin:Passw0rd" \
        -X PUT \
        -T HelloWorld-0.6.5.jar \
-       'http://localhost:8081/artifactory/maven-demo-lib/curl-demo/HelloWorld-0.6.5.jar;release=true;cleanup.skip=true;build.number=0.6.5'
+       'http://localhost:8081/artifactory/maven-demo-lib/curl-demo/hello-world/HelloWorld-0.6.5.jar;release=true;cleanup.skip=true;build.number=0.6.5'
 ```
 
 
