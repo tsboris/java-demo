@@ -1,6 +1,10 @@
 # Demo
 
 ## First run of Artifactory
+
+```shell
+http://35.158.109.252:8081
+```
 User: admin
 Pass: password
 New Pass: Passw0rd
@@ -31,7 +35,29 @@ ssh -i "~/.ssh/borist-develeap.instance.key.pem" ubuntu@35.158.109.252
 git clone https://github.com/tsboris/java-demo.git
 ```
 
+## Upload an artifact with metadata using cURL
+
+```shell
+curl -sSf -u "admin:Passw0rd" \
+       -X PUT \
+       -T HelloWorld-0.6.5.jar \
+       'http://localhost:8081/artifactory/maven-demo-lib/curl-demo/HelloWorld-0.6.5.jar;release=true;cleanup.skip=true;build.number=0.6.5'
+```
+
+
+
+
+
+
+
+
+
+
+
 ## Create a maven project
+No need if cloned from git.
+
+
 ```shell
 mvn -B archetype:generate -DgroupId=com.mavendemo -DartifactId=mavendemo -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4
 
