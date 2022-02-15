@@ -14,17 +14,17 @@ We will add a local and a remote repository
 
 ### Local repository
 Repository Key (Name): maven-demo-lib-local
-_Physical, locally-managed repositories into which you can deploy artifacts._
+*Physical, locally-managed repositories into which you can deploy artifacts.*
 
 ### Remote repository
 Repository Key (Name): maven-demo-lib-remote
-_Serves as a caching proxy for a repository managed at a remote URL_
+*Serves as a caching proxy for a repository managed at a remote URL*
 
 ### Virtual repository
 Repository Key (Name): maven-demo-lib
 Add the local and remote Maven repositories (move them from Available Repositories to Selected Repositories using the arrow buttons).
 Select the local repository as the Default Deployment Repository.
-_Or "repository group", aggregates several repositories with the same package type under a common URL._
+*Or "repository group", aggregates several repositories with the same package type under a common URL.*
 
 ## SSH into demo instance
 
