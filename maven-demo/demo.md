@@ -3,7 +3,7 @@
 ## First run of Artifactory
 
 ```shell
-http://35.158.109.252:8081
+http://3.69.54.35:8081
 ```
 User: admin
 Pass: password
@@ -14,19 +14,22 @@ We will add a local and a remote repository
 
 ### Local repository
 Repository Key (Name): maven-demo-lib-local
+_Physical, locally-managed repositories into which you can deploy artifacts._
 
 ### Remote repository
 Repository Key (Name): maven-demo-lib-remote
+_Serves as a caching proxy for a repository managed at a remote URL_
 
 ### Virtual repository
 Repository Key (Name): maven-demo-lib
 Add the local and remote Maven repositories (move them from Available Repositories to Selected Repositories using the arrow buttons).
 Select the local repository as the Default Deployment Repository.
+_Or "repository group", aggregates several repositories with the same package type under a common URL._
 
 ## SSH into demo instance
 
 ```shell
-ssh -i "~/.ssh/borist-develeap.instance.key.pem" ubuntu@35.158.109.252
+ssh -i "~/.ssh/borist-develeap.instance.key.pem" ubuntu@3.69.54.35
 ```
 
 ## Clone Demo git
