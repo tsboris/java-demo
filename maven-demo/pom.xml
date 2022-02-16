@@ -10,15 +10,15 @@
 
   <name>mvn-demo</name>
 
- <distributionManagement>
+<distributionManagement>
     <repository>
         <id>central</id>
-        <name>cec3ce99aa53-releases</name>
+        <name>bb054a159ee5-releases</name>
         <url>http://localhost:8081/artifactory/maven-demo-lib</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>cec3ce99aa53-snapshots</name>
+        <name>bb054a159ee5-snapshots</name>
         <url>http://localhost:8081/artifactory/maven-demo-lib</url>
     </snapshotRepository>
 </distributionManagement>
