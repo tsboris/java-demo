@@ -68,9 +68,17 @@ Copy and paste in ```/usr/share/maven/conf/settings.xml```.
 * **install** - install the package into the local repository, for use as a dependency in other projects locally
 * **deploy** - done in the build environment, copies the final package to the remote repository for sharing with other developers and projects.
 
+### Package the project
 
+```shell
+mvn package
+```
 
+### Deploy the project
 
+```shell
+mvn deploy
+```
 
 
 
