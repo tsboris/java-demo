@@ -3,7 +3,7 @@
 ## First run of Artifactory
 
 ```shell
-http://3.69.54.35:8081
+http://18.197.228.101:8081
 ```
 User: admin
 Pass: password
@@ -29,7 +29,7 @@ Select the local repository as the Default Deployment Repository.
 ## SSH into demo instance
 
 ```shell
-ssh -i "~/.ssh/borist-develeap.instance.key.pem" ubuntu@3.69.54.35
+ssh -i "~/.ssh/borist-develeap.instance.key.pem" ubuntu@18.197.228.101
 ```
 
 ## Clone Demo git
