@@ -5,25 +5,25 @@
 ```shell
 http://18.197.228.101:8081
 ```
-User: admin
-Pass: password
-New Pass: Passw0rd
+User: admin  
+Pass: password  
+New Pass: Passw0rd  
 
 ## Setup Maven repository
 We will add a local and a remote repository
 
 ### Local repository
-Repository Key (Name): maven-demo-lib-local
+Repository Key (Name): maven-demo-lib-local  
 *Physical, locally-managed repositories into which you can deploy artifacts.*
 
 ### Remote repository
-Repository Key (Name): maven-demo-lib-remote
+Repository Key (Name): maven-demo-lib-remote  
 *Serves as a caching proxy for a repository managed at a remote URL*
 
 ### Virtual repository
-Repository Key (Name): maven-demo-lib
-Add the local and remote Maven repositories (move them from Available Repositories to Selected Repositories using the arrow buttons).
-Select the local repository as the Default Deployment Repository.
+Repository Key (Name): maven-demo-lib  
+Add the local and remote Maven repositories (move them from Available Repositories to Selected Repositories using the arrow buttons).  
+Select the local repository as the Default Deployment Repository.  
 *Or "repository group", aggregates several repositories with the same package type under a common URL.*
 
 ## SSH into demo instance
